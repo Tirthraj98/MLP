@@ -22,14 +22,14 @@ def main():
     st.title("Mental Health Disorder Prediction")
 
     # Get user input for 24 features
-    features = ['feeling.nervous', 'panic', 'breathing.rapidly', 'sweating',
-       'trouble.in.concentration', 'having.trouble.in.sleeping',
-       'having.trouble.with.work', 'hopelessness', 'anger', 'over.react',
-       'change.in.eating', 'suicidal.thought', 'feeling.tired', 'close.friend',
-       'social.media.addiction', 'weight.gain', 'material.possessions',
-       'introvert', 'popping.up.stressful.memory', 'having.nightmares',
-       'avoids.people.or.activities', 'feeling.negative',
-       'trouble.concentrating', 'blamming.yourself']
+    features = ['Are you feeling nervous?', 'Are you panic?', 'Are you breathing rapidly?', 'Is your body sweating frequently?',
+       'Are you facing trouble in concentration?', 'Are you having trouble in sleeping?',
+       'Are you having trouble with work?', 'Are you feeling hopelessness?', 'Are you be angery frequenty?', 'Are you over reacting on silly things?',
+       'Are there frequently change in eating?', 'Are you have suicidal thought?', 'Are you feeling tired alltime?', 'Do you have any close friend?',
+       'Do you have social media addiction?', 'Are you facing weight gain unusually?', 'Are you have material possessions?',
+       'Are you introvert?', 'Do you struggle with popping up stressful memory?', 'Do you having nightmares?',
+       'Do you avoids people or activities?', 'Are you feeling negative?',
+       'Are you facing trouble concentrating in work?', 'Are you blamming yourself?']
     user_inputs = []
     for i in range(24):
         # feature_name = f"Feature {i + 1}"
